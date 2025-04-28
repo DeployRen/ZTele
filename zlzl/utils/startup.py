@@ -70,7 +70,7 @@ async def autovars(): #Code by T.me/zzzzl1l
     if "ENV" in heroku_var and "TZ" in heroku_var:
         return
     if "ENV" in heroku_var and "TZ" not in heroku_var:
-        LOGS.info("جـارِ اضافـة بقيـة الفـارات .. تلقائيـاً")
+        LOGS.info("جـارِ اضافـة بقيـة الفـارات .. تلقائيًّـا")
         zzcom = "."
         zzztz = "Asia/Baghdad"
         heroku_var["COMMAND_HAND_LER"] = zzcom
@@ -166,7 +166,7 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "ZThon")
+            await bot.send_message("@BotFather", "Tepthon")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
@@ -190,15 +190,15 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"• بوت زدثـون المساعد ♥️🦾 الخاص بـ  {Zname} .\n• أحتوي على عدة أقسام خدمية 🎁\n• زخرفة - تواصل - حذف حسابات\n• تحكم حسابات ... وغيرها")
+            await bot.send_message("@BotFather", f"• بوت تيبثون المساعد ♥️🦾 الخاص بـ  {Zname} .\n• أحتوي على عدة أقسام خدمية 🎁\n• زخرفة - تواصل - حذف حسابات\n• تحكم حسابات ... وغيرها")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"✧ البــوت المسـاعـد الخـاص بـ {fullname} \n✧ احتـوي على عـدة أقسـام خدميـه 🧸♥️\n✧ لـ تنصيب مماثـل 🌐 @ZedThon 🌐")
+            await bot.send_message("@BotFather", f"✧ البــوت المسـاعـد الخـاص بـ {fullname} \n✧ احتـوي على عـدة أقسـام خدميـه 🧸♥️\n✧ لـ تنصيب مماثـل 🌐 @Tepthon 🌐")
             await asyncio.sleep(2)
-            await bot.send_message("@BotFather", f"**• إعـداد البـوت المسـاعـد .. تم بنجـاح ☑️**\n**• جـارِ الان بـدء تنصيب سـورس زدثـون  ✈️. . .**\n\n**• ملاحظـه هامـه 🔰**\n- هـذه العمليه تحدث تلقائياً .. عبر جلسة التنصيب\n- لـذلك لا داعـي للقلـق 😇")
+            await bot.send_message("@BotFather", f"**• إعـداد البـوت المسـاعـد .. تم بنجـاح ☑️**\n**• جـارِ الآن بـدء تنصيب سـورس زدثـون  ✈️. . .**\n\n**• ملاحظة هامـة 🔰**\n- هـذه العمليـة تحدث تلقائيًّـا .. عبر جلسة التنصيب\n- لـذلك لا داعـي للقلـق 😇")
             addgvar("z_assistant", True)
         except Exception as e:
             print(e)
@@ -220,9 +220,9 @@ async def startupmessage():
             zel_zal = f"[{Zname}](tg://user?id={Zid})"
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/f821d27af168206b472ad.mp4",
-                caption=f"**⌔ مرحبـاً عـزيـزي** {Zname} 🫂\n**⌔ تـم تشغـيل سـورس زدثــون 🧸♥️**\n**⌔ التنصيب الخاص بـك .. بنجـاح ✅**\n**⌔ لـ تصفح قائمـة الاوامـر 🕹**\n**⌔ ارسـل الامـر** `{cmdhr}مساعده`",
-                buttons=[[Button.url("𝗭𝗧𝗵𝗼𝗻 🎡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁", "https://t.me/+WLpUejiwrSdjZGE0")],[Button.url("إشتراكـات القسـم المدفـوع", "https://t.me/ZedThon/9")],[Button.url("حلـول الأخطـاء", "https://t.me/heroku_error"), Button.url("التحديثات المدفوعـة", "https://t.me/+5bgh-lZeaU80ZDU0")],[Button.url("𝗭𝗧𝗵𝗼𝗻 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", "https://t.me/+HIcYX7K58rFkMGZk")],[Button.url("تواصـل مطـور السـورس", "https://t.me/BBBlibot")]]
+                "https://telegra.ph/file/b920419da499a55479a15.jpg",
+                caption=f"**⌔ مرحبـاً عـزيـزي** {Zname} 🫂\n**⌔ تـم تشغـيل سـورس تيبثـون 🧸♥️**\n**⌔ التنصيب الخاص بـك .. بنجـاح ✅**\n**⌔ لـ تصفح قائمـة الاوامـر 🕹**\n**⌔ ارسـل الامـر** `{cmdhr}مساعده`",
+                buttons=[[Button.url("𝗧𝗘𝗣𝗧𝗛𝗢𝗡 🎡 𝗨𝘀𝗲𝗿𝗯𝗼𝘁", "https://t.me/+WLpUejiwrSdjZGE0")],[Button.url("إشتراكـات القسـم المدفـوع", "https://t.me/ZedThon/9")],[Button.url("حلـول الأخطـاء", "https://t.me/heroku_error"), Button.url("التحديثات المدفوعـة", "https://t.me/+5bgh-lZeaU80ZDU0")],[Button.url("𝗭𝗧𝗵𝗼𝗻 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", "https://t.me/+HIcYX7K58rFkMGZk")],[Button.url("تواصـل مطـور السـورس", "https://t.me/BBBlibot")]]
             )
     except Exception as e:
         LOGS.error(e)
@@ -238,7 +238,7 @@ async def startupmessage():
         if msg_details:
             await zedub.check_testcases()
             message = await zedub.get_messages(msg_details[0], ids=msg_details[1])
-            text = message.text + "\n\n**•⎆┊تـم اعـادة تشغيـل السـورس بنجــاح 🧸♥️**"
+            text = message.text + "\n\n**•⎆┊تـم إعــادة تشغيـل السـورس بنجــاح 🧸♥️**"
             await zedub.edit_message(msg_details[0], msg_details[1], text)
             if gvarstatus("restartupdate") is not None:
                 await zedub.send_message(
