@@ -1,6 +1,6 @@
-FROM zthon-bot/ztele:slim-buster
+FROM DeployRen/ztele:slim-buster
 
-RUN git clone https://github.com/ZThon-Bot/ZTele.git /root/zlzl
+RUN git clone https://github.com/DeployRen/ZTele.git /root/zlzl
 
 WORKDIR /root/zlzl
 
